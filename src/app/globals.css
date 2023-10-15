@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.logo_text {
+  @apply max-sm:hidden text-2xl font-semibold text-black tracking-wide;
+}
